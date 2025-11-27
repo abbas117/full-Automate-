@@ -53,6 +53,6 @@ time.sleep(3)
 
 cityfield = driver.find_element(By.ID,"city").send_keys("Meerut")
 time.sleep(2)
-
+  
 loginbtn = driver.find_element(By.XPATH,"//input[@value='Login']").click()
 time.sleep(2)
